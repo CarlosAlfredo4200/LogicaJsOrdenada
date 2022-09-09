@@ -1,0 +1,8 @@
+https://cibertest.com/test-examen/20/javascript
+
+Métodos de los arreglos: 
+https://www.freecodecamp.org/espanol/news/el-manual-de-arreglos-en-javascript/
+
+Pruebas tecnicas
+https://www.youtube.com/watch?v=I1PpLwWf4Y0
+Hacker Rank

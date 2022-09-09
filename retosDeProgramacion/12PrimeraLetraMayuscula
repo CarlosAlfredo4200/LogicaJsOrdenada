@@ -1,0 +1,27 @@
+//  * Enunciado: Crea una función que reciba un String de cualquier tipo y se encargue de
+//     * poner en mayúscula la primera letra de cada palabra.
+//  * - No se pueden utilizar operaciones del lenguaje que lo resuelvan directamente.
+
+function primeraLetraMayusc(cadena) {
+    
+    const divCadena = cadena.split(' ');
+    let newCadena = [];
+
+    // for (let k = 0; k < divCadena.length; k++) {
+  
+    //     newCadena.push((divCadena[k].slice(0, 1).toUpperCase()) + (divCadena[k].slice(1)));
+ 
+    // }
+
+    for (const palabra of divCadena) {
+             newCadena.push((palabra.slice(0, 1).toUpperCase()) + (palabra.slice(1)));
+    }
+
+    console.log(newCadena.join(' '));
+
+    
+     
+}
+
+primeraLetraMayusc('carlos alfredo montoya goez')
+

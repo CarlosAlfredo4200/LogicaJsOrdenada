@@ -1,0 +1,16 @@
+.mayusculas{
+
+    text-transform: uppercase;
+    color: rgb(82, 82, 215);
+}
+
+.mayusculaIicial{
+     
+    color: red;
+    text-transform: capitalize;
+}
+
+.btnModificar{
+    text-transform: capitalize;
+    color: rgb(0, 149, 255);
+}

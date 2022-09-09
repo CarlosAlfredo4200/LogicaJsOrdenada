@@ -1,0 +1,49 @@
+// * Enunciado: Crea una función que calcule y retorne cuántos días hay entre dos cadenas de texto que representen fechas.
+//  * - Una cadena de texto que representa una fecha tiene el formato "dd/MM/yyyy".
+//  * - La función recibirá dos String y retornará un Int.
+//  * - La diferencia en días será absoluta(no importa el orden de las fechas).
+//  * - Si una de las dos cadenas de texto no representa una fecha correcta se lanzará una excepción.
+
+//https://www.youtube.com/watch?v=u1IozLnAI_8&ab_channel=JohnOrtizOrdo%C3%B1ez
+
+const contadorDias = (fecha1, fecha2) => {
+
+    let edFecha1 = new Date(fecha1);
+    let edFecha2 = new Date(fecha2);
+
+    let milisegundos = 24 * 60 * 60 * 1000;
+
+    let milisegundosTranscurridos = Math.abs(edFecha1.getTime() - (edFecha2.getTime()));
+
+    let diasTrancurridos = Math.round(milisegundosTranscurridos / milisegundos);
+
+    console.log(diasTrancurridos);
+
+
+}
+
+// contadorDias('11/13/2018', '11/19/2019')
+
+// ------------------ Versión 2 ------------------------//
+
+//https://www.youtube.com/watch?v=vdnRWeoH9Jg&ab_channel=WalterNascimento
+
+const segundos = 1000;
+const minutos = segundos * 60;
+const horas = minutos * 60;
+const dia = horas * 24;
+
+const diastrascurridos = (fecha1, fecha2) => {
+
+    let edFecha1B = new Date(fecha1);
+    let edFecha2B = new Date(fecha2);
+
+    let diferencia = edFecha1B.getTime() - edFecha2B.getTime();
+
+    let resultados = Math.floor(diferencia/dia)
+    console.log(resultados);
+
+
+}
+
+diastrascurridos('11/19/2019', '11/13/2018')
