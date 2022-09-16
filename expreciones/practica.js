@@ -1,6 +1,7 @@
 const remplazarTexto = ( cadena, letra ) =>{
-     let car = 'CARLOS'
-    const res =  cadena.replace(  /${letra}/gi, "[-CENSURADO-]");
+     let exp = /carlos/gi
+   // const res =  cadena.replace(new RegExp(letra, 'gi'), "[-CENSURADO-]");
+    const res =  cadena.replace(exp, "[-CENSURADO-]");
     console.log(res);
 
 
@@ -17,3 +18,11 @@ remplazarTexto('carlos alfredo montoya carlos CARLOS', 'carlos' );
 
 //  .replace(/[^\w]/gi, '')
 // replace(/[,.!¡]/gi, "");
+
+
+//--- ---- ---- ---- 
+
+let cadena = "Para más información, vea Capítulo 3.4.5.1";
+let expresion = /(capítulo \d+(\.\d)*)/i;
+let hallado = cadena.match(expresion);
+console.log(hallado);

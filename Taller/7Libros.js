@@ -63,3 +63,7 @@ let nombreLibroMasBarato = libros[`${indiceCostoLibro}`];
 
 // Imprimir los datos resultantes
 console.log(`El libro mas economico de todos es : ${nombreLibroMasBarato} y su valor es de : ${libroMasBarato}`);
+
+
+const x = document.getElementById('').innerHTML
+ 
