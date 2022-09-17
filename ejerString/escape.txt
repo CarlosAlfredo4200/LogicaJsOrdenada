@@ -1,0 +1,10 @@
+Comilla simple	\’
+Comilla doble	\»
+Barra invertida	\\
+Nueva línea	\n
+Tabulador horizontal	\t
+Tabulador vertical	\v
+Salto de página	\f
+Retorno de carro	\r
+Retroceso	\b
+
