@@ -33,3 +33,32 @@ String.prototype.repiteme = function (numero) {
 };
 
 console.log("Andrea".repiteme(5));
+
+//------------Version Jhon Ortiz----------------
+
+let saludo = "¡Hola!  ."
+ function replicaString (cadena, num = 1) {
+   return num < 1 ? "Nada " : new Array(num + 1).join(cadena);
+
+ }
+
+ console.log(replicaString(saludo, 5));
+ console.log(replicaString(saludo, 0));
+
+//Repetir caracter
+
+//------------------------------
+
+function repiteCaracter(cadena) {
+  
+  let newCadena = cadena.split('');
+  let result = ''
+  for (let k = 0; k < newCadena.length; k++) {
+   result +=newCadena[k] + newCadena[k]
+    
+  }
+  console.log(result);
+   
+}
+
+repiteCaracter("Hola")
