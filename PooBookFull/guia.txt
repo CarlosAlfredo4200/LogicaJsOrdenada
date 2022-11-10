@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=Ql6XJpZqM9E&t=644s&ab_channel=YouDevs    2020   40min
+
+Que es POO?
+La Programación Orientada a Objetos (POO) es un paradigma de programación(un método para crear sistemas), es decir, un modelo o un estilo de programación que nos da unas guías sobre cómo trabajar con él. Se basa en el concepto de clases y objetos. Este tipo de programación se utiliza para estructurar un programa de software en piezas simples y reutilizables de planos de código (clases) para crear instancias individuales de objetos. 
+
+
+Abstración:
+Eliminar detalles innecesarios utilizando solo lo necesario para el contexto o sistema desarrollado.
+
+Encapsulamiento:
+Ocultar detalles que no son relevantes para el exterior.
+Agrupar datos(propiedades) y métodos que actúan sobre esas propuedades de manera que el acceso a esos datos este restringido desde fuera del paquete.
+
+Herencia:
+Métodos por el cual una clase hija hereda de una clase padre sus métodos y atributos.
+
+Polimorfismo:
+Misma acción de diferentes formas. Sobre escribir métodos de la que hereda para emplear la misma funcionalidad poro con variantes.
+
+La clase: 
+No retorna nada y solo contiene variables y funciones(propiedades y métodos)
