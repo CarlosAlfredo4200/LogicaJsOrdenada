@@ -1,0 +1,1 @@
+const nombreCancion = document.getElementById('nombre').innerHTML = "Fiesta"
