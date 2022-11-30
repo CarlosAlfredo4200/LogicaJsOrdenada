@@ -74,3 +74,28 @@ input{
     background-color: blue;
     color: white;
 }
+
+.card_info{
+     
+    border: 1px solid rgba(151, 151, 151, 0.432);
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+strong{
+    color: rgb(44, 43, 43);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+a{
+
+    padding: 8px;
+    border: 1px solid rgba(151, 151, 151, 0);
+    border-radius: 6px;
+    
+    text-decoration: none;
+    background-color: #dc3545;
+    color: white;
+}
