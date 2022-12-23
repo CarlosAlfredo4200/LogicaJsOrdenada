@@ -6,4 +6,4 @@ const persona = {
     edad:44
 }
 
-console.log('email' in persona);
+console.log('nombre' in persona);

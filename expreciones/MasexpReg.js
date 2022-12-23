@@ -70,3 +70,4 @@ console.log(addEspacios.replace(/,/g, ", "));
 
 // Esta otra funciona bien con los números pero no con los espacios ya existentes:
 console.log(addEspacios.replace(/,(\S)/g, ", $1"));
+

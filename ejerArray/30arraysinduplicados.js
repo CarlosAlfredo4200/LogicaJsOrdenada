@@ -39,7 +39,7 @@ const quitarDuplicados = (arr = undefined) => {
 // quitarDuplicados({})
 // quitarDuplicados([])
 // quitarDuplicados([2])
-quitarDuplicados(["x", 10, "x", 2, "10", 10, true, true]);
+//quitarDuplicados(["x", 10, "x", 2, "10", 10, true, true]);
 
 
 
@@ -50,8 +50,11 @@ const arrayb = ["x", 10, "x", 2, "10", 10, true, true];
 const sinDuplicados = [...new Set(arrayb)];
 
 const numer = new Set([1,2,3,4])
-console.log("Esta el elemento 2 ?\n" + numer.has(2));
+//console.log("Esta el elemento 2 ?\n" + numer.has(2));
+console.log("\nVersion newSet():");
 console.log(sinDuplicados);
+console.log("\nVersion newSet(): como objeto");
+console.log(numer);
 
  
  

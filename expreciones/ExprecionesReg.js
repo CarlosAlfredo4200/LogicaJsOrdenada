@@ -42,6 +42,9 @@ const expresionesReg = (cadena) => {
     
 
 }
+//Para hallar vocales
+const expReg = new RegExp(/[aeiouAEIOUáéíóú]/, "ig");
+const res = expReg.test(caracter);
 
 expresionesReg('Carlos Arturo')
 // Carlos Arturo
