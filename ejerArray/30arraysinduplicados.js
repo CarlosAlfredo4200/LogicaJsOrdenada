@@ -40,3 +40,18 @@ const quitarDuplicados = (arr = undefined) => {
 // quitarDuplicados([])
 // quitarDuplicados([2])
 quitarDuplicados(["x", 10, "x", 2, "10", 10, true, true]);
+
+
+
+//---------------------------------------Con reduce ---------------------------
+// https://www.youtube.com/watch?v=fx2lqc4KNdk&ab_channel=LuisitoHabla
+
+const arrayb = ["x", 10, "x", 2, "10", 10, true, true];
+const sinDuplicados = [...new Set(arrayb)];
+
+const numer = new Set([1,2,3,4])
+console.log("Esta el elemento 2 ?\n" + numer.has(2));
+console.log(sinDuplicados);
+
+ 
+ 
