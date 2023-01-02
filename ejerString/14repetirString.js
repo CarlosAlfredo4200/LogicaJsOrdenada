@@ -1,5 +1,6 @@
 //Repetir un string las veces indicadas
 
+//-------- Version 1 ---------------
 const repetir = (cadena, numero) => {
   let repetir = (cadena + " ").repeat(numero);
   console.log(repetir);
@@ -7,7 +8,7 @@ const repetir = (cadena, numero) => {
 
 repetir("Carlos", 3);
 
-//-----------------------------------
+//--------------Version 2 ---------------------
 
 const repetirV2 = (cadena, numero) => {
   nuevoString = "";

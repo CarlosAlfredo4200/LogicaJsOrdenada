@@ -1,28 +1,45 @@
- const array = [-1,1,2,3,4,5];
+ const array = [-1,1,"hola",2,"Carlos",4,5 ];
+ const arrayB = [1,2,3,4,5,-1];
+ const abc = ["a", "b", "c", "e","f", "g"];
+ const concatNumber = [1,2,3,4,5];
+
 
 // console.log(Math.max(...array));
 // console.log(Math.min(...array));
 
-// Para practicar
-// https://digitalnestweb.com/ejercicios-resueltos-javascript-funciones/
+// const arrayEvery = array.every((number, index) => {
+//     console.log(index);
+//     return typeof number ==="number"
+    
+// });
+// console.log({arrayEvery});
 
-// Entrevista dev js
+console.log("\n");
+const arrayFilter = array.filter((number, index) => {
+    console.log(index);
+    return typeof number !=="number"
+    
+});
+console.log({arrayFilter});
 
-//https://digitalnestweb.com/10-preguntas-de-entrevista-para-un-desarrollador-javascript/
+console.log("\n");
+const arraySome = array.some((number, index) => {
+    console.log(index);
+    return typeof number ==="number"
+    
+});
+console.log({arraySome});
+ 
 
-// const fibonnacci = (numero) => {
-//     let serie = [0,1];
+const suma = arrayB.reduce((x, y ) => x + y);
+console.log(suma);
 
-//     for (let k = 2; k <= numero; k++) {
+const newabc = abc.reduce((X, y) => X.concat(y));
+console.log(newabc);
 
-//         serie.push(serie[k -1] + serie [k -2]);
-//     }
-//     return[serie, serie[numero]];
-// }
-
-// console.log("Serie completa :" +fibonnacci(10)[0]);
-// console.log("resultado Fib :" +fibonnacci(10)[1]);
-
+const concatNumeros = concatNumber.reduce((x, y) => x.toString().concat(y)*1);
+console.log(concatNumeros);
+ 
 
 
 

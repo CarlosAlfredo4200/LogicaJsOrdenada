@@ -30,12 +30,15 @@ function addTwoNumber(arrayA, arrayB) {
   const n1 = BigInt(arrayA.join(""));
   const n2 = BigInt(arrayB.join(""));
   const sumaN = n1 + n2;
-
+  
+  //Métodos reduce para convertir array en number para reemplazar los for
+  const concatNumer = a.reduce((x,y)=> x.toString().concat(y) * 1);
   console.log(a);
   console.log(b);
   console.log(listaFinal);
   console.log(n1, n2);
   console.log(sumaN.toString().split("").reverse().join(""));
+  console.log(concatNumer);
 }
 
 addTwoNumber(a, b);
