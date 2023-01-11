@@ -22,6 +22,7 @@ function addTwoNumber(arrayA, arrayB) {
   const suma = parseInt(newA) + parseInt(newB);
 
   const newNumber = parseInt(suma.toString().split("").reverse().join(""));
+  
   for (const carac of newNumber.toString()) {
     listaFinal.push(parseInt(carac));
   }

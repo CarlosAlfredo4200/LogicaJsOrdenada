@@ -2,6 +2,8 @@
  const arrayB = [1,2,3,4,5,-1];
  const abc = ["a", "b", "c", "e","f", "g"];
  const concatNumber = [1,2,3,4,5];
+// Fortalecer la lógica
+//https://www.youtube.com/watch?v=wQAOuO4TMEY&list=PLyvsggKtwbLXg9B-GROg7_WV10CuSpG5R&ab_channel=LaGeekipediaDeErnesto
 
 
 // console.log(Math.max(...array));
